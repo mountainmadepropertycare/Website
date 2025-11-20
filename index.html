@@ -25,6 +25,10 @@
       margin: 0 auto 20px auto;
       display: block;
     }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
     section {
       margin: 20px 0;
       padding: 15px;
@@ -38,6 +42,14 @@
       display: inline-block;
       padding-bottom: 5px;
       margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+      font-size: 1.1rem;
     }
     .contact {
       font-size: 1.2rem;
@@ -55,30 +67,22 @@
       top: 0;
       z-index: 1000;
       box-sizing: border-box;
-      white-space: nowrap;
+      white-space: nowrap; /* Prevent wrapping */
     }
     .topbar-left {
       font-size: 1.2rem;
       font-weight: bold;
     }
-    .topbar-right a {
-      color: #ffffff;
-      text-decoration: none;
+    .topbar-right {
       font-size: 1.1rem;
-    }
-    .topbar-right a:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <div class="topbar">
     <div class="topbar-left">MountainMade Property Care</div>
-    <div class="topbar-right">
-      <a href="tel:5306433990">Contact Us @ (530) 643-3990</a>
-    </div>
+    <div class="topbar-right">Contact Us @ (530) 643-3990</div>
   </div>
-
   <div class="container">
     <img src="logo.png" alt="MountainMade Property Care Logo" />
 
@@ -100,8 +104,8 @@
 
     <section id="contact">
       <h2>Contact Us</h2>
-      <p class="contact">Phone: <a href="tel:5306433990">(530) 643-3990</a></p>
-      <p class="contact">Email: <a href="mailto:mountainmadepropertycare@gmail.com">mountainmadepropertycare@gmail.com</a></p>
+      <p class="contact">Phone: (530) 643-3990</p>
+      <p class="contact">Email: <br>mountainmadepropertycare@gmail.com</p>
     </section>
   </div>
 </body>
