@@ -55,7 +55,7 @@
       font-size: 1.2rem;
       margin-top: 10px;
     }
-  .topbar {
+    .topbar {
       width: 100%;
       background-color: #2f3b2f;
       color: #ffffff;
@@ -67,31 +67,24 @@
       top: 0;
       z-index: 1000;
       box-sizing: border-box;
+      white-space: nowrap; /* Prevent wrapping */
     }
     .topbar-left {
       font-size: 1.2rem;
       font-weight: bold;
     }
-    .topbar-right a {
-      color: #ffffff;
-      text-decoration: none;
+    .topbar-right {
       font-size: 1.1rem;
-    }
-    .topbar-right a:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <div class="topbar">
     <div class="topbar-left">MountainMade Property Care</div>
-    <div class="topbar-right">Contact Us @ <br>(530)643-3990</div>
+    <div class="topbar-right">Contact Us @ (530) 643-3990</div>
   </div>
   <div class="container">
-    <!-- Replace src with your logo file name -->
     <img src="logo.png" alt="MountainMade Property Care Logo" />
-
-    
 
     <section id="about">
       <h2>About Us</h2>
@@ -102,9 +95,6 @@
 
     <section id="services">
       <h2>Services & Pricing Guide</h2>
-      
-        
-      
       <p>
         We base our pricing on a few simple factors: yard size, time required, debris amount, and overall labor difficulty. This helps us give every customer a fair and accurate quote.
         <br><br>
@@ -120,6 +110,3 @@
   </div>
 </body>
 </html>
-
-
-
